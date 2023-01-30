@@ -15,3 +15,11 @@ void gpio_set(uint32_t outputs);
 
 //Set mask for outputs (bits 1 are driven outputs, bits 0 are tristate)
 void gpio_set_output_enable(uint32_t value);
+
+uint16_t gpio_sw_get();
+
+//Set mask for outputs (bits 1 are driven outputs, bits 0 are tristate)
+void gpio_set_sseg_ca(uint8_t value);
+
+//Set mask for outputs (bits 1 are driven outputs, bits 0 are tristate)
+void gpio_set_sseg_an(uint8_t value);
