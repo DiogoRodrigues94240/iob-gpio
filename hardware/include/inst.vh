@@ -8,9 +8,10 @@
       .rst     (rst),
 
       // Registers interface
-      .gpio_input (gpio_input),
-      .gpio_output (gpio_output),
-      .gpio_output_enable (gpio_output_enable),
+      
+      .gpio_sw		(gpio_sw),
+      .gpio_sseg_ca	(gpio_sseg_ca),
+      .gpio_sseg_an	(gpio_sseg_an),
 
       // CPU interface
       .valid   (slaves_req[`valid(`GPIO)]),
